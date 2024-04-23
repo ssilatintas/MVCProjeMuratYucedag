@@ -15,14 +15,14 @@ namespace MVCProjeMuratYücedağ.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Senin Hakkında Sayfan.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Senin İletişim Sayfan.";
 
             return View();
         }
